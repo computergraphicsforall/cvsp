@@ -657,8 +657,9 @@ function menuStaticChoropleth(id) {
                 if (item.innerText.toString().startsWith('Show')) {
 
                     addInfoChoropleticVisualization ('features');
-                    addLayerChoroplethMap (ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, 'none', DATA_ANA, 'constancy', 'COD_LCL');
                     addInteractiveInfoVisualization (ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, 'COD_LCL', 'constancy', DATA_ANA);
+                    addLayerChoroplethMap (ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, 'none', DATA_ANA, 'constancy', 'COD_LCL');
+                    
                     
                     setLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility', 'visible');
                     item.innerText = item.innerText.toString().replace('Show', 'Hide');
@@ -671,8 +672,8 @@ function menuStaticChoropleth(id) {
 
                 }
                 else {
-
-                    setLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility', 'none');
+                    removeLayer(ID_EX_CHOPLETH_PRED);
+                    delElementVisualization ('features');
                     item.innerText = item.innerText.toString().replace('Hide', 'Show');
                 }
 
