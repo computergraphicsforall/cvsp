@@ -279,7 +279,7 @@ function addLayerChoroplethMap (idLayer, idSource, layout, dataChoropleth, prope
                 addCursorStyleOnLayer (idLayer);
                 // add opacity change over space units
                 addChangeOpacityOnLayer (idLayer, idSource);
-                
+                addInfoChoropleticVisualization ('features'); 
                 addChoropleticLegend(quantiles, colorScale);
             // otherwise the layer is updated 
             } else {
