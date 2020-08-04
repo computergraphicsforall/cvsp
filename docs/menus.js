@@ -623,6 +623,7 @@ function menuHeatMaps(id) {
 
                 if (item.innerText.toString().startsWith('Show') && getLayoutProperty(ID_HEATMAP_NUSE, 'visibility') == 'none' && getLayoutProperty(ID_PTS_HEATMAP_NUSE, 'visibility') == 'none') {
 
+                    
                     setLayoutProperty(ID_HEATMAP_NUSE, 'visibility', 'visible');
                     setLayoutProperty(ID_PTS_HEATMAP_NUSE, 'visibility', 'visible');
                     item.innerText = item.innerText.toString().replace('Show', 'Hide');
@@ -655,8 +656,16 @@ function menuStaticChoropleth(id) {
 
                 if (item.innerText.toString().startsWith('Show') && getLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility') == 'none' && getLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility') == 'none') {
 
+                    addInfoChoropleticVisualization ('features'); 
+                    addInteractiveInfoVisualization (ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, 'COD_LCL', 'constancy', DATA_ANA);
                     setLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility', 'visible');
                     item.innerText = item.innerText.toString().replace('Show', 'Hide');
+
+                    let dataProperties = getPropertiesByData (DATA_ANA, 'COD_LCL');
+                    if (Object.keys(dataProperties).length > 1) {
+
+                        addChoropleticProperties(dataProperties, ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, DATA_ANA, 'COD_LCL', CLICK_EVENT);     
+                    }
 
                 }
                 else {
