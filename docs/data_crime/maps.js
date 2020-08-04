@@ -308,7 +308,7 @@ function heatMapNuse() {
         'layout': { 'visibility': 'none' },
         'minzoom': 8,
         'paint': {
-            'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 9, 100, 10, 100, 11, 100, 12, 100, 13, 100, 14, 100, 15, 100],
+            'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 9, 25, 10, 50, 11, 100, 12, 180, 13, 340, 14, 700, 15, 1400],
             'heatmap-weight': ['interpolate', ['linear'], ['get', 'incidents'], 0, 0, 10000, 0.5, 20000, 0.75, 40000, 1, 60000, 1.5, 80000, 2],
             'heatmap-color': ['interpolate', ['linear'], ['heatmap-density'],
              0, 'rgba(33,102,172,0)', 
