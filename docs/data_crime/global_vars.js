@@ -19,17 +19,17 @@
 const token = 'pk.eyJ1IjoibWJhcnJlcm9wIiwiYSI6ImNrN28zZjczbTA0ZWwzaXF3aDAxcHl1dGkifQ.DlJqaPP1eC7PF_y-bbWjeg';
 
 // local resources for the map configuration
-const UPZ_POL_LOCAL_PATH = '../cvs/data_crime/upz.json';
-const CNTS_UPZ_LOCAL_PATH = '../cvs/data_crime/centroids_upz_nuse_month.geojson';
-const STKDE_UPZ_LOCAL_PATH = '../cvs/data_crime/stkde_centroids_upz_nuse_month.geojson';
+const UPZ_POL_LOCAL_PATH = '../cvsp/data_crime/upz.json';
+const CNTS_UPZ_LOCAL_PATH = '../cvsp/data_crime/centroids_upz_nuse_month.geojson';
+const STKDE_UPZ_LOCAL_PATH = '../cvsp/data_crime/stkde_centroids_upz_nuse_month.geojson';
 const UPZ_POL_EXTERNAL_PATH = 'https://datcloudflareosabiertos.bogota.gov.co/dataset/e1c11929-1b57-4900-8cae-0d236123b40a/resource/806a7752-c73d-4643-aaf0-ce88ab659bae/download/upla.json';
-const LCL_POL_LOCAL_PATH = '../cvs/data_crime/poligonos-localidades.geojson';
-const CAT_ZONE_POL_LOCAL_PATH ='../cvs/data_crime/scatgeojson.geojson';
-const LCL_UNIT_NAMES_PATH = '../cvs/data_crime/lcl_names.geojson';
-const UPZ_UNIT_NAMES_PATH = '../cvs/data_crime/upz_names.geojson';
-const ZC_UNIT_NAMES_PATH = '../cvs/data_crime/zc_names.geojson';
-const HEATMAP_NUSE_PATH = '../cvs/data_crime/heatmap/heatmap_nuse.geojson';
-const HEATMAP_PTS_NUSE_PATH = '../cvs/data_crime/heatmap/pts_nuse.geojson';
+const LCL_POL_LOCAL_PATH = '../cvsp/data_crime/poligonos-localidades.geojson';
+const CAT_ZONE_POL_LOCAL_PATH ='../cvsp/data_crime/scatgeojson.geojson';
+const LCL_UNIT_NAMES_PATH = '../cvsp/data_crime/lcl_names.geojson';
+const UPZ_UNIT_NAMES_PATH = '../cvsp/data_crime/upz_names.geojson';
+const ZC_UNIT_NAMES_PATH = '../cvsp/data_crime/zc_names.geojson';
+const HEATMAP_NUSE_PATH = '../cvsp/data_crime/heatmap/heatmap_nuse.geojson';
+const HEATMAP_PTS_NUSE_PATH = '../cvsp/data_crime/heatmap/pts_nuse.geojson';
 
 // global variables
 var map, chpColorsMapUPZ;
