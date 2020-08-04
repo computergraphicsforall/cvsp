@@ -1,0 +1,1950 @@
+{
+    "config": {
+        "c_palete": [
+            "#3BDF70",
+            "#053215"
+        ],
+        "end_scale": 1,
+        "init_scale": 1,
+        "qcolors": 5,
+        "title": "Datos Nuse"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [-74.0945,4.732147],
+                "type": "Point"
+            },
+            "id": 0,
+            "properties": {
+                "ALEATORIO": 1353,
+                "COD_UPZ": "UPZ28",
+                "NUM": 88422,
+                "UPZ": "EL RINCON"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.116557,
+                    4.744732
+                ],
+                "type": "Point"
+            },
+            "id": 1,
+            "properties": {
+                "ALEATORIO": 3288,
+                "COD_UPZ": "UPZ71",
+                "NUM": 81904,
+                "UPZ": "TIBABUYES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.190773,
+                    4.623982
+                ],
+                "type": "Point"
+            },
+            "id": 2,
+            "properties": {
+                "ALEATORIO": 3810,
+                "COD_UPZ": "UPZ84",
+                "NUM": 70739,
+                "UPZ": "BOSA OCCIDENTAL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.194157,
+                    4.607247
+                ],
+                "type": "Point"
+            },
+            "id": 3,
+            "properties": {
+                "ALEATORIO": 1458,
+                "COD_UPZ": "UPZ85",
+                "NUM": 63245,
+                "UPZ": "BOSA CENTRAL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.155672,
+                    4.62438
+                ],
+                "type": "Point"
+            },
+            "id": 4,
+            "properties": {
+                "ALEATORIO": 562,
+                "COD_UPZ": "UPZ47",
+                "NUM": 53971,
+                "UPZ": "KENNEDY CENTRAL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.16942,
+                    4.639702
+                ],
+                "type": "Point"
+            },
+            "id": 5,
+            "properties": {
+                "ALEATORIO": 3262,
+                "COD_UPZ": "UPZ82",
+                "NUM": 52760,
+                "UPZ": "PATIO BONITO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.144444,
+                    4.678027
+                ],
+                "type": "Point"
+            },
+            "id": 6,
+            "properties": {
+                "ALEATORIO": 275,
+                "COD_UPZ": "UPZ75",
+                "NUM": 49384,
+                "UPZ": "FONTIBON"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.146592,
+                    4.550755
+                ],
+                "type": "Point"
+            },
+            "id": 7,
+            "properties": {
+                "ALEATORIO": 1492,
+                "COD_UPZ": "UPZ67",
+                "NUM": 48609,
+                "UPZ": "LUCERO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.140178,
+                    4.583761
+                ],
+                "type": "Point"
+            },
+            "id": 8,
+            "properties": {
+                "ALEATORIO": 2898,
+                "COD_UPZ": "UPZ42",
+                "NUM": 48483,
+                "UPZ": "VENECIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.134275,
+                    4.708565
+                ],
+                "type": "Point"
+            },
+            "id": 9,
+            "properties": {
+                "ALEATORIO": 3094,
+                "COD_UPZ": "UPZ74",
+                "NUM": 44104,
+                "UPZ": "ENGATIVA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.121328,
+                    4.707189
+                ],
+                "type": "Point"
+            },
+            "id": 10,
+            "properties": {
+                "ALEATORIO": 413,
+                "COD_UPZ": "UPZ73",
+                "NUM": 42886,
+                "UPZ": "GARCES NAVAS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.171568,
+                    4.584652
+                ],
+                "type": "Point"
+            },
+            "id": 11,
+            "properties": {
+                "ALEATORIO": 463,
+                "COD_UPZ": "UPZ69",
+                "NUM": 39398,
+                "UPZ": "ISMAEL PERDOMO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.190969,
+                    4.637447
+                ],
+                "type": "Point"
+            },
+            "id": 12,
+            "properties": {
+                "ALEATORIO": 1992,
+                "COD_UPZ": "UPZ86",
+                "NUM": 38655,
+                "UPZ": "EL PORVENIR"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.091379,
+                    4.549223
+                ],
+                "type": "Point"
+            },
+            "id": 13,
+            "properties": {
+                "ALEATORIO": 3258,
+                "COD_UPZ": "UPZ50",
+                "NUM": 35551,
+                "UPZ": "LA GLORIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.115406,
+                    4.55968
+                ],
+                "type": "Point"
+            },
+            "id": 14,
+            "properties": {
+                "ALEATORIO": 4667,
+                "COD_UPZ": "UPZ54",
+                "NUM": 35392,
+                "UPZ": "MARRUECOS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.104112,
+                    4.693988
+                ],
+                "type": "Point"
+            },
+            "id": 15,
+            "properties": {
+                "ALEATORIO": 1269,
+                "COD_UPZ": "UPZ30",
+                "NUM": 35072,
+                "UPZ": "BOYACA REAL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.117799,
+                    4.581826
+                ],
+                "type": "Point"
+            },
+            "id": 16,
+            "properties": {
+                "ALEATORIO": 3514,
+                "COD_UPZ": "UPZ39",
+                "NUM": 34829,
+                "UPZ": "QUIROGA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.0914,
+                    4.681039
+                ],
+                "type": "Point"
+            },
+            "id": 17,
+            "properties": {
+                "ALEATORIO": 3414,
+                "COD_UPZ": "UPZ26",
+                "NUM": 34617,
+                "UPZ": "LAS FERIAS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.089958,
+                    4.751145
+                ],
+                "type": "Point"
+            },
+            "id": 18,
+            "properties": {
+                "ALEATORIO": 1027,
+                "COD_UPZ": "UPZ27",
+                "NUM": 33830,
+                "UPZ": "SUBA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.094864,
+                    4.565718
+                ],
+                "type": "Point"
+            },
+            "id": 19,
+            "properties": {
+                "ALEATORIO": 2247,
+                "COD_UPZ": "UPZ34",
+                "NUM": 33097,
+                "UPZ": "20 DE JULIO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.083566,
+                    4.609745
+                ],
+                "type": "Point"
+            },
+            "id": 20,
+            "properties": {
+                "ALEATORIO": 3482,
+                "COD_UPZ": "UPZ102",
+                "NUM": 31945,
+                "UPZ": "LA SABANA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.031785,
+                    4.762845
+                ],
+                "type": "Point"
+            },
+            "id": 21,
+            "properties": {
+                "ALEATORIO": 3585,
+                "COD_UPZ": "UPZ9",
+                "NUM": 31546,
+                "UPZ": "VERBENAL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.164172,
+                    4.608991
+                ],
+                "type": "Point"
+            },
+            "id": 22,
+            "properties": {
+                "ALEATORIO": 3249,
+                "COD_UPZ": "UPZ48",
+                "NUM": 30942,
+                "UPZ": "TIMIZA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.115783,
+                    4.501762
+                ],
+                "type": "Point"
+            },
+            "id": 23,
+            "properties": {
+                "ALEATORIO": 3512,
+                "COD_UPZ": "UPZ58",
+                "NUM": 29584,
+                "UPZ": "COMUNEROS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.099358,
+                    4.709549
+                ],
+                "type": "Point"
+            },
+            "id": 24,
+            "properties": {
+                "ALEATORIO": 4136,
+                "COD_UPZ": "UPZ29",
+                "NUM": 29511,
+                "UPZ": "MINUTO DE DIOS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.112725,
+                    4.513614
+                ],
+                "type": "Point"
+            },
+            "id": 25,
+            "properties": {
+                "ALEATORIO": 2523,
+                "COD_UPZ": "UPZ57",
+                "NUM": 29440,
+                "UPZ": "GRAN YOMASA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.140644,
+                    4.606321
+                ],
+                "type": "Point"
+            },
+            "id": 26,
+            "properties": {
+                "ALEATORIO": 3762,
+                "COD_UPZ": "UPZ45",
+                "NUM": 28682,
+                "UPZ": "CARVAJAL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.162389,
+                    4.57117
+                ],
+                "type": "Point"
+            },
+            "id": 27,
+            "properties": {
+                "ALEATORIO": 1115,
+                "COD_UPZ": "UPZ70",
+                "NUM": 27604,
+                "UPZ": "JERUSALEM"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.142793,
+                    4.643967
+                ],
+                "type": "Point"
+            },
+            "id": 28,
+            "properties": {
+                "ALEATORIO": 4140,
+                "COD_UPZ": "UPZ46",
+                "NUM": 27236,
+                "UPZ": "CASTILLA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.140195,
+                    4.538905
+                ],
+                "type": "Point"
+            },
+            "id": 29,
+            "properties": {
+                "ALEATORIO": 1804,
+                "COD_UPZ": "UPZ68",
+                "NUM": 26911,
+                "UPZ": "EL TESORO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.102561,
+                    4.589174
+                ],
+                "type": "Point"
+            },
+            "id": 30,
+            "properties": {
+                "ALEATORIO": 1965,
+                "COD_UPZ": "UPZ38",
+                "NUM": 26327,
+                "UPZ": "RESTREPO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.162725,
+                    4.630401
+                ],
+                "type": "Point"
+            },
+            "id": 31,
+            "properties": {
+                "ALEATORIO": 4010,
+                "COD_UPZ": "UPZ80",
+                "NUM": 25776,
+                "UPZ": "CORABASTOS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.109439,
+                    4.545956
+                ],
+                "type": "Point"
+            },
+            "id": 32,
+            "properties": {
+                "ALEATORIO": 461,
+                "COD_UPZ": "UPZ55",
+                "NUM": 25739,
+                "UPZ": "DIANA TURBAY"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.069026,
+                    4.660053
+                ],
+                "type": "Point"
+            },
+            "id": 33,
+            "properties": {
+                "ALEATORIO": 981,
+                "COD_UPZ": "UPZ98",
+                "NUM": 25367,
+                "UPZ": "LOS ALCAZARES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.116438,
+                    4.620479
+                ],
+                "type": "Point"
+            },
+            "id": 34,
+            "properties": {
+                "ALEATORIO": 4298,
+                "COD_UPZ": "UPZ43",
+                "NUM": 24597,
+                "UPZ": "SAN RAFAEL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.112086,
+                    4.607511
+                ],
+                "type": "Point"
+            },
+            "id": 35,
+            "properties": {
+                "ALEATORIO": 1768,
+                "COD_UPZ": "UPZ40",
+                "NUM": 23764,
+                "UPZ": "CIUDAD MONTES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.164555,
+                    4.647381
+                ],
+                "type": "Point"
+            },
+            "id": 36,
+            "properties": {
+                "ALEATORIO": 4334,
+                "COD_UPZ": "UPZ79",
+                "NUM": 22968,
+                "UPZ": "CALANDAIMA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.055573,
+                    4.669869
+                ],
+                "type": "Point"
+            },
+            "id": 37,
+            "properties": {
+                "ALEATORIO": 4450,
+                "COD_UPZ": "UPZ97",
+                "NUM": 22909,
+                "UPZ": "CHICO LAGO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.147048,
+                    4.564034
+                ],
+                "type": "Point"
+            },
+            "id": 38,
+            "properties": {
+                "ALEATORIO": 1676,
+                "COD_UPZ": "UPZ66",
+                "NUM": 22814,
+                "UPZ": "SAN FRANCISCO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.132118,
+                    4.622182
+                ],
+                "type": "Point"
+            },
+            "id": 39,
+            "properties": {
+                "ALEATORIO": 2559,
+                "COD_UPZ": "UPZ44",
+                "NUM": 22751,
+                "UPZ": "AMERICAS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.091466,
+                    4.534177
+                ],
+                "type": "Point"
+            },
+            "id": 40,
+            "properties": {
+                "ALEATORIO": 1479,
+                "COD_UPZ": "UPZ51",
+                "NUM": 22280,
+                "UPZ": "LOS LIBERTADORES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.082538,
+                    4.561447
+                ],
+                "type": "Point"
+            },
+            "id": 41,
+            "properties": {
+                "ALEATORIO": 3092,
+                "COD_UPZ": "UPZ32",
+                "NUM": 22213,
+                "UPZ": "SAN BLAS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.17459,
+                    4.62006
+                ],
+                "type": "Point"
+            },
+            "id": 42,
+            "properties": {
+                "ALEATORIO": 3521,
+                "COD_UPZ": "UPZ81",
+                "NUM": 21813,
+                "UPZ": "GRAN BRITALIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.025012,
+                    4.736045
+                ],
+                "type": "Point"
+            },
+            "id": 43,
+            "properties": {
+                "ALEATORIO": 4644,
+                "COD_UPZ": "UPZ11",
+                "NUM": 21775,
+                "UPZ": "SAN CRISTOBAL NORTE"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.074022,
+                    4.605928
+                ],
+                "type": "Point"
+            },
+            "id": 44,
+            "properties": {
+                "ALEATORIO": 171,
+                "COD_UPZ": "UPZ93",
+                "NUM": 21121,
+                "UPZ": "LAS NIEVES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.078213,
+                    4.672427
+                ],
+                "type": "Point"
+            },
+            "id": 45,
+            "properties": {
+                "ALEATORIO": 3804,
+                "COD_UPZ": "UPZ22",
+                "NUM": 20416,
+                "UPZ": "DOCE DE OCTUBRE"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.056579,
+                    4.72207
+                ],
+                "type": "Point"
+            },
+            "id": 46,
+            "properties": {
+                "ALEATORIO": 4426,
+                "COD_UPZ": "UPZ19",
+                "NUM": 20175,
+                "UPZ": "EL PRADO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.038508,
+                    4.724103
+                ],
+                "type": "Point"
+            },
+            "id": 47,
+            "properties": {
+                "ALEATORIO": 2332,
+                "COD_UPZ": "UPZ13",
+                "NUM": 19655,
+                "UPZ": "LOS CEDROS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.064754,
+                    4.640552
+                ],
+                "type": "Point"
+            },
+            "id": 48,
+            "properties": {
+                "ALEATORIO": 3905,
+                "COD_UPZ": "UPZ99",
+                "NUM": 19047,
+                "UPZ": "CHAPINERO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.115144,
+                    4.569119
+                ],
+                "type": "Point"
+            },
+            "id": 49,
+            "properties": {
+                "ALEATORIO": 3639,
+                "COD_UPZ": "UPZ53",
+                "NUM": 18608,
+                "UPZ": "MARCO FIDEL SUAREZ"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.103378,
+                    4.57388
+                ],
+                "type": "Point"
+            },
+            "id": 50,
+            "properties": {
+                "ALEATORIO": 2663,
+                "COD_UPZ": "UPZ36",
+                "NUM": 18189,
+                "UPZ": "SAN JOSE"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.108105,
+                    4.677978
+                ],
+                "type": "Point"
+            },
+            "id": 51,
+            "properties": {
+                "ALEATORIO": 4808,
+                "COD_UPZ": "UPZ31",
+                "NUM": 17399,
+                "UPZ": "SANTA CECILIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.102592,
+                    4.495504
+                ],
+                "type": "Point"
+            },
+            "id": 52,
+            "properties": {
+                "ALEATORIO": 113,
+                "COD_UPZ": "UPZ59",
+                "NUM": 17274,
+                "UPZ": "ALFONSO LOPEZ"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.071591,
+                    4.642621
+                ],
+                "type": "Point"
+            },
+            "id": 53,
+            "properties": {
+                "ALEATORIO": 2147,
+                "COD_UPZ": "UPZ100",
+                "NUM": 17180,
+                "UPZ": "GALERIAS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.126947,
+                    4.599686
+                ],
+                "type": "Point"
+            },
+            "id": 54,
+            "properties": {
+                "ALEATORIO": 3094,
+                "COD_UPZ": "UPZ41",
+                "NUM": 16128,
+                "UPZ": "MUZU"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.202847,
+                    4.631061
+                ],
+                "type": "Point"
+            },
+            "id": 55,
+            "properties": {
+                "ALEATORIO": 2989,
+                "COD_UPZ": "UPZ87",
+                "NUM": 16065,
+                "UPZ": "TINTAL SUR"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.095126,
+                    4.598227
+                ],
+                "type": "Point"
+            },
+            "id": 56,
+            "properties": {
+                "ALEATORIO": 3298,
+                "COD_UPZ": "UPZ37",
+                "NUM": 15962,
+                "UPZ": "SANTA ISABEL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.152429,
+                    4.580689
+                ],
+                "type": "Point"
+            },
+            "id": 57,
+            "properties": {
+                "ALEATORIO": 3566,
+                "COD_UPZ": "UPZ65",
+                "NUM": 15724,
+                "UPZ": "ARBORIZADORA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.163211,
+                    4.496397
+                ],
+                "type": "Point"
+            },
+            "id": 58,
+            "properties": {
+                "ALEATORIO": 2533,
+                "COD_UPZ": "UPR3",
+                "NUM": 14787,
+                "UPZ": "UPR RIO TUNJUELO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.038856,
+                    4.742117
+                ],
+                "type": "Point"
+            },
+            "id": 59,
+            "properties": {
+                "ALEATORIO": 4483,
+                "COD_UPZ": "UPZ12",
+                "NUM": 14343,
+                "UPZ": "TOBERIN"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.129489,
+                    4.563018
+                ],
+                "type": "Point"
+            },
+            "id": 60,
+            "properties": {
+                "ALEATORIO": 3263,
+                "COD_UPZ": "UPZ62",
+                "NUM": 14224,
+                "UPZ": "TUNJUELITO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.083542,
+                    4.761245
+                ],
+                "type": "Point"
+            },
+            "id": 61,
+            "properties": {
+                "ALEATORIO": 2603,
+                "COD_UPZ": "UPR1",
+                "NUM": 13777,
+                "UPZ": "UPR ZONA NORTE"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.046288,
+                    4.696479
+                ],
+                "type": "Point"
+            },
+            "id": 62,
+            "properties": {
+                "ALEATORIO": 1759,
+                "COD_UPZ": "UPZ16",
+                "NUM": 13689,
+                "UPZ": "SANTA BARBARA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.08578,
+                    4.579595
+                ],
+                "type": "Point"
+            },
+            "id": 63,
+            "properties": {
+                "ALEATORIO": 4153,
+                "COD_UPZ": "UPZ33",
+                "NUM": 13463,
+                "UPZ": "SOSIEGO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.073213,
+                    4.595932
+                ],
+                "type": "Point"
+            },
+            "id": 64,
+            "properties": {
+                "ALEATORIO": 3055,
+                "COD_UPZ": "UPZ94",
+                "NUM": 12567,
+                "UPZ": "LA CANDELARIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.056947,
+                    4.747477
+                ],
+                "type": "Point"
+            },
+            "id": 65,
+            "properties": {
+                "ALEATORIO": 3253,
+                "COD_UPZ": "UPZ18",
+                "NUM": 12459,
+                "UPZ": "BRITALIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.082945,
+                    4.590832
+                ],
+                "type": "Point"
+            },
+            "id": 66,
+            "properties": {
+                "ALEATORIO": 2656,
+                "COD_UPZ": "UPZ95",
+                "NUM": 12387,
+                "UPZ": "LAS CRUCES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.059301,
+                    4.63838
+                ],
+                "type": "Point"
+            },
+            "id": 67,
+            "properties": {
+                "ALEATORIO": 4906,
+                "COD_UPZ": "UPZ90",
+                "NUM": 12148,
+                "UPZ": "PARDO RUBIO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.070274,
+                    4.718204
+                ],
+                "type": "Point"
+            },
+            "id": 68,
+            "properties": {
+                "ALEATORIO": 2424,
+                "COD_UPZ": "UPZ24",
+                "NUM": 11497,
+                "UPZ": "NIZA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.092988,
+                    4.584291
+                ],
+                "type": "Point"
+            },
+            "id": 69,
+            "properties": {
+                "ALEATORIO": 1004,
+                "COD_UPZ": "UPZ35",
+                "NUM": 11156,
+                "UPZ": "CIUDAD JARDIN"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.073791,
+                    4.628635
+                ],
+                "type": "Point"
+            },
+            "id": 70,
+            "properties": {
+                "ALEATORIO": 4015,
+                "COD_UPZ": "UPZ101",
+                "NUM": 10967,
+                "UPZ": "TEUSAQUILLO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.031917,
+                    4.748069
+                ],
+                "type": "Point"
+            },
+            "id": 71,
+            "properties": {
+                "ALEATORIO": 1440,
+                "COD_UPZ": "UPZ10",
+                "NUM": 10776,
+                "UPZ": "LA URIBE"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.114058,
+                    4.720554
+                ],
+                "type": "Point"
+            },
+            "id": 72,
+            "properties": {
+                "ALEATORIO": 3885,
+                "COD_UPZ": "UPZ72",
+                "NUM": 10503,
+                "UPZ": "BOLIVIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.15667,
+                    4.691912
+                ],
+                "type": "Point"
+            },
+            "id": 73,
+            "properties": {
+                "ALEATORIO": 553,
+                "COD_UPZ": "UPZ76",
+                "NUM": 10452,
+                "UPZ": "FONTIBON SAN PABLO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.072732,
+                    4.585223
+                ],
+                "type": "Point"
+            },
+            "id": 74,
+            "properties": {
+                "ALEATORIO": 878,
+                "COD_UPZ": "UPZ96",
+                "NUM": 10017,
+                "UPZ": "LOURDES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.096229,
+                    4.617285
+                ],
+                "type": "Point"
+            },
+            "id": 75,
+            "properties": {
+                "ALEATORIO": 3305,
+                "COD_UPZ": "UPZ108",
+                "NUM": 9464,
+                "UPZ": "ZONA INDUSTRIAL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.162692,
+                    4.679014
+                ],
+                "type": "Point"
+            },
+            "id": 76,
+            "properties": {
+                "ALEATORIO": 4112,
+                "COD_UPZ": "UPZ77",
+                "NUM": 9382,
+                "UPZ": "ZONA FRANCA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.05069,
+                    4.760622
+                ],
+                "type": "Point"
+            },
+            "id": 77,
+            "properties": {
+                "ALEATORIO": 4764,
+                "COD_UPZ": "UPZ17",
+                "NUM": 8843,
+                "UPZ": "SAN JOSE DE BAVARIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.164604,
+                    4.600595
+                ],
+                "type": "Point"
+            },
+            "id": 78,
+            "properties": {
+                "ALEATORIO": 4626,
+                "COD_UPZ": "UPZ49",
+                "NUM": 8354,
+                "UPZ": "APOGEO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.114372,
+                    4.53676
+                ],
+                "type": "Point"
+            },
+            "id": 79,
+            "properties": {
+                "ALEATORIO": 3919,
+                "COD_UPZ": "UPZ56",
+                "NUM": 8351,
+                "UPZ": "DANUBIO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.032211,
+                    4.696811
+                ],
+                "type": "Point"
+            },
+            "id": 80,
+            "properties": {
+                "ALEATORIO": 1044,
+                "COD_UPZ": "UPZ14",
+                "NUM": 7983,
+                "UPZ": "USAQUEN"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.065718,
+                    4.683615
+                ],
+                "type": "Point"
+            },
+            "id": 81,
+            "properties": {
+                "ALEATORIO": 3958,
+                "COD_UPZ": "UPZ21",
+                "NUM": 7517,
+                "UPZ": "LOS ANDES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.089318,
+                    4.508679
+                ],
+                "type": "Point"
+            },
+            "id": 82,
+            "properties": {
+                "ALEATORIO": 4311,
+                "COD_UPZ": "UPZ52",
+                "NUM": 7152,
+                "UPZ": "LA FLORA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.076435,
+                    4.695813
+                ],
+                "type": "Point"
+            },
+            "id": 83,
+            "properties": {
+                "ALEATORIO": 3233,
+                "COD_UPZ": "UPZ25",
+                "NUM": 6880,
+                "UPZ": "LA FLORESTA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.123002,
+                    4.668083
+                ],
+                "type": "Point"
+            },
+            "id": 84,
+            "properties": {
+                "ALEATORIO": 3865,
+                "COD_UPZ": "UPZ114",
+                "NUM": 6337,
+                "UPZ": "MODELIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.154263,
+                    4.654324
+                ],
+                "type": "Point"
+            },
+            "id": 85,
+            "properties": {
+                "ALEATORIO": 1252,
+                "COD_UPZ": "UPZ78",
+                "NUM": 5953,
+                "UPZ": "TINTAL NORTE"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.068637,
+                    4.619239
+                ],
+                "type": "Point"
+            },
+            "id": 86,
+            "properties": {
+                "ALEATORIO": 1363,
+                "COD_UPZ": "UPZ91",
+                "NUM": 5947,
+                "UPZ": "SAGRADO CORAZON"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.111969,
+                    4.633544
+                ],
+                "type": "Point"
+            },
+            "id": 87,
+            "properties": {
+                "ALEATORIO": 1394,
+                "COD_UPZ": "UPZ111",
+                "NUM": 5894,
+                "UPZ": "PUENTE ARANDA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.068599,
+                    4.739016
+                ],
+                "type": "Point"
+            },
+            "id": 88,
+            "properties": {
+                "ALEATORIO": 2251,
+                "COD_UPZ": "UPZ23",
+                "NUM": 5688,
+                "UPZ": "CASA BLANCA SUBA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.08894,
+                    4.631094
+                ],
+                "type": "Point"
+            },
+            "id": 89,
+            "properties": {
+                "ALEATORIO": 4161,
+                "COD_UPZ": "UPZ107",
+                "NUM": 5636,
+                "UPZ": "QUINTA PAREDES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.140547,
+                    4.505317
+                ],
+                "type": "Point"
+            },
+            "id": 90,
+            "properties": {
+                "ALEATORIO": 180,
+                "COD_UPZ": "UPZ64",
+                "NUM": 5255,
+                "UPZ": "MONTE BLANCO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.059896,
+                    4.698045
+                ],
+                "type": "Point"
+            },
+            "id": 91,
+            "properties": {
+                "ALEATORIO": 347,
+                "COD_UPZ": "UPZ20",
+                "NUM": 5241,
+                "UPZ": "LA ALHAMBRA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.128727,
+                    4.636987
+                ],
+                "type": "Point"
+            },
+            "id": 92,
+            "properties": {
+                "ALEATORIO": 1399,
+                "COD_UPZ": "UPZ113",
+                "NUM": 5121,
+                "UPZ": "BAVARIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.090351,
+                    4.644201
+                ],
+                "type": "Point"
+            },
+            "id": 93,
+            "properties": {
+                "ALEATORIO": 3854,
+                "COD_UPZ": "UPZ104",
+                "NUM": 5086,
+                "UPZ": "PARQUE SIMON BOLIVAR - CAN"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.114902,
+                    4.481967
+                ],
+                "type": "Point"
+            },
+            "id": 94,
+            "properties": {
+                "ALEATORIO": 2899,
+                "COD_UPZ": "UPZ61",
+                "NUM": 5022,
+                "UPZ": "CIUDAD USME"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.127155,
+                    4.653966
+                ],
+                "type": "Point"
+            },
+            "id": 95,
+            "properties": {
+                "ALEATORIO": 2305,
+                "COD_UPZ": "UPZ112",
+                "NUM": 4877,
+                "UPZ": "GRANJAS DE TECHO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.048611,
+                    4.664959
+                ],
+                "type": "Point"
+            },
+            "id": 96,
+            "properties": {
+                "ALEATORIO": 4155,
+                "COD_UPZ": "UPZ88",
+                "NUM": 4801,
+                "UPZ": "EL REFUGIO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.112385,
+                    4.656023
+                ],
+                "type": "Point"
+            },
+            "id": 97,
+            "properties": {
+                "ALEATORIO": 980,
+                "COD_UPZ": "UPZ110",
+                "NUM": 4486,
+                "UPZ": "CIUDAD SALITRE OCCIDENTAL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.128749,
+                    4.680906
+                ],
+                "type": "Point"
+            },
+            "id": 98,
+            "properties": {
+                "ALEATORIO": 2136,
+                "COD_UPZ": "UPZ115",
+                "NUM": 4455,
+                "UPZ": "CAPELLANIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.1769,
+                    4.63277
+                ],
+                "type": "Point"
+            },
+            "id": 99,
+            "properties": {
+                "ALEATORIO": 3411,
+                "COD_UPZ": "UPZ83",
+                "NUM": 4135,
+                "UPZ": "LAS MARGARITAS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.118518,
+                    4.688789
+                ],
+                "type": "Point"
+            },
+            "id": 100,
+            "properties": {
+                "ALEATORIO": 3152,
+                "COD_UPZ": "UPZ116",
+                "NUM": 4112,
+                "UPZ": "ALAMOS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.085889,
+                    4.648396
+                ],
+                "type": "Point"
+            },
+            "id": 101,
+            "properties": {
+                "ALEATORIO": 3764,
+                "COD_UPZ": "UPZ106",
+                "NUM": 4093,
+                "UPZ": "LA ESMERALDA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.064876,
+                    4.613352
+                ],
+                "type": "Point"
+            },
+            "id": 102,
+            "properties": {
+                "ALEATORIO": 681,
+                "COD_UPZ": "UPZ92",
+                "NUM": 3361,
+                "UPZ": "LA MACARENA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.044551,
+                    4.709451
+                ],
+                "type": "Point"
+            },
+            "id": 103,
+            "properties": {
+                "ALEATORIO": 2169,
+                "COD_UPZ": "UPZ15",
+                "NUM": 2745,
+                "UPZ": "COUNTRY CLUB"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.102915,
+                    4.644161
+                ],
+                "type": "Point"
+            },
+            "id": 104,
+            "properties": {
+                "ALEATORIO": 4838,
+                "COD_UPZ": "UPZ109",
+                "NUM": 2231,
+                "UPZ": "CIUDAD SALITRE ORIENTAL"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.039672,
+                    4.781801
+                ],
+                "type": "Point"
+            },
+            "id": 105,
+            "properties": {
+                "ALEATORIO": 4598,
+                "COD_UPZ": "UPZ1",
+                "NUM": 1794,
+                "UPZ": "PASEO DE LOS LIBERTADORES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.021586,
+                    4.668818
+                ],
+                "type": "Point"
+            },
+            "id": 106,
+            "properties": {
+                "ALEATORIO": 4127,
+                "COD_UPZ": "UPZ89",
+                "NUM": 1772,
+                "UPZ": "SAN ISIDRO - PATIOS"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.132303,
+                    4.693453
+                ],
+                "type": "Point"
+            },
+            "id": 107,
+            "properties": {
+                "ALEATORIO": 1010,
+                "COD_UPZ": "UPZ117",
+                "NUM": 1621,
+                "UPZ": "AEROPUERTO EL DORADO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.133659,
+                    4.542173
+                ],
+                "type": "Point"
+            },
+            "id": 108,
+            "properties": {
+                "ALEATORIO": 1255,
+                "COD_UPZ": "UPZ63",
+                "NUM": 1497,
+                "UPZ": "EL MOCHUELO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.086102,
+                    4.660432
+                ],
+                "type": "Point"
+            },
+            "id": 109,
+            "properties": {
+                "ALEATORIO": 2746,
+                "COD_UPZ": "UPZ103",
+                "NUM": 1262,
+                "UPZ": "PARQUE SALITRE"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.10275,
+                    4.658963
+                ],
+                "type": "Point"
+            },
+            "id": 110,
+            "properties": {
+                "ALEATORIO": 2373,
+                "COD_UPZ": "UPZ105",
+                "NUM": 1171,
+                "UPZ": "JARDIN BOTANICO"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.046076,
+                    4.785282
+                ],
+                "type": "Point"
+            },
+            "id": 111,
+            "properties": {
+                "ALEATORIO": 4015,
+                "COD_UPZ": "UPZ2",
+                "NUM": 227,
+                "UPZ": "LA ACADEMIA"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.095328,
+                    4.520268
+                ],
+                "type": "Point"
+            },
+            "id": 112,
+            "properties": {
+                "ALEATORIO": 4342,
+                "COD_UPZ": "UPZ60",
+                "NUM": 179,
+                "UPZ": "PARQUE ENTRENUBES"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -74.048856,
+                    4.814371
+                ],
+                "type": "Point"
+            },
+            "id": 113,
+            "properties": {
+                "ALEATORIO": 1254,
+                "COD_UPZ": "UPZ3",
+                "NUM": 30,
+                "UPZ": "GUAYMARAL"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

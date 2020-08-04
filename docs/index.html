@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <!--Meta configuration-->
+        <meta charset='utf-8'>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--Local threebox resources-->
+        <!--script src="../grafica/threebox-master/dist/threebox.js" type="text/javascript"></script-->
+        <script type="text/javascript" src="data_crime/global_vars.js"></script>
+        <script type="text/javascript" src="menus.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        
+        <!-- Remote Bootstrap resources-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!--Local Main styles-->
+        <link rel="stylesheet" type="text/css" href="customStyle.css"/>
+        
+    </head>
+    <body>
+        <!--Navigation bar on top-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Crime Visualization System</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#loadData">Load data</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Default elements
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="layers-options">
+                            <!--<li><a class="dropdown-item" href="#">Hide all polygons</a></li>
+                            <li><a class="dropdown-item" href="#">Hide all borders</a></li>
+                            <li><a class="dropdown-item" href="#">Hide all unit names</a></li>-->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Spatial units</a>
+                                <ul class="dropdown-menu" id="spatial-unit-options">
+                                    <a class="dropdown-item" href="#">Show: Localities</a>
+                                    <a class="dropdown-item" href="#">Show: UPZ</a>
+                                    <a class="dropdown-item" href="#">Show: Catastral zones</a>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Space unit limits</a>
+                                <ul class="dropdown-menu" id="spatial-limit-options">
+                                  <a class="dropdown-item" href="#">Show: Locality limits</a>
+                                  <a class="dropdown-item" href="#">Show: UPZ limits</a>
+                                  <a class="dropdown-item" href="#">Show: Catastral limits</a>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Space unit names</a>
+                                <ul class="dropdown-menu" id="spatial-name-options">
+                                  <a class="dropdown-item" href="#">Show: Localities names</a>
+                                  <a class="dropdown-item" href="#">Show: UPZ names</a>
+                                  <a class="dropdown-item" href="#">Show: Catastral zone names</a>
+                                </ul>
+                            </li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Choropleth maps
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2" id="choropleth-options">
+                            <!--<li><a class="dropdown-item" href="#">Hide all choropleth maps</a></li>-->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Localities</a>
+                                <ul class="dropdown-menu" id="localities-choro-options" name="localities-choro-options">
+                                    <!--<li><a class="dropdown-item" href="#">1</a></li>
+                                    <li><a class="dropdown-item" href="#">2</a></li>
+                                    <li><a class="dropdown-item" href="#">3</a></li>-->
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">UPZ</a>
+                                <ul class="dropdown-menu" id="upz-choro-options" name="upz-choro-options">
+                                  <!--<li><a class="dropdown-item" href="#">1</a></li>
+                                  <li><a class="dropdown-item" href="#">2</a></li>
+                                  <li><a class="dropdown-item" href="#">3</a></li>-->
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Catastral zones</a>
+                                <ul class="dropdown-menu" id="catastral-choro-options" name="catastral-choro-options">
+                                  <!--<li><a class="dropdown-item" href="#">1</a></li>
+                                  <li><a class="dropdown-item" href="#">2</a></li>
+                                  <li><a class="dropdown-item" href="#">3</a></li>-->
+                                </ul>
+                            </li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Heatmap
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="heatmap-options">
+                            <a class="dropdown-item" href="#">Show Nuse Heatmap</a></li>                          
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        <!-- Local Events to main menu-->
+        <script src="submenus.js"></script>
+        <!--Modal load data-->
+        <div class="modal fade" id="loadData" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalLabel">Load your data for visualizing</h5>
+                  <button type="button" id=closeButtonModal class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" id="modalLoadData">
+                    <!--aqui va esa monda-->
+                    <form id="uploadDataForm" enctype="multipart/form-data" method="post">
+                        <div class="input-group">     
+                            <div class="custom-file">
+                            <input type="file" name="inputFileIV" class="custom-file-input" id="inputFileIV" onchange="clearAlertOnChange()" aria-describedby="inputFileIV01">
+                            <label class="custom-file-label" id="labelInputFileIV" for="inputFileVI">Choose file</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                        <label for="typeOfFile" class="col-form-label">Type of file</label>
+                        <select class="custom-select"id="typeOfFile" required>
+                            <option value="">Select a type of file</option>
+                            <option value="1">Choropleth by localities</option>
+                            <option value="2">Choropleth by upz</option>
+                            <option value="3">Choropleth by catastral zones</option>
+                            <!--<option value="5">HeatMap</option>
+                            <option value="6">Animation HeatMap</option>-->
+                        </select>
+                        </div>
+                        <div class="progress" id="progressBar">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                            <span class="progress-bar-text">0%</span>                          
+                            </div>   
+                        </div>
+                        <h3 id="status"></h3>
+                        <div class="modal-footer">
+                            <button type="button" id = "closeUploadDataButton" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" id ="uploadDataButton" name="uploadDataButton" onclick="loadGEOFiles()" class="btn btn-primary">Load file</button>
+                        </div>
+                    </form>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!--Map container-->
+        <div id='map'></div>
+        <!--<div class='map-overlay' id='legend'></div>-->
+        <!--<div class='map-overlay' id='features'>
+            <h2>Titulo</h2>
+            <div id='pd'>
+                <p>No data</p>
+            </div>
+        </div>-->
+        <!--Mapbox resources-->
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet'></link>
+
+        <!--Three.js resources-->
+        <script src="https://unpkg.com/three@0.106.2/build/three.min.js"></script>
+        <script src="https://unpkg.com/three@0.106.2/examples/js/loaders/GLTFLoader.js"></script>
+        <script src="https://unpkg.com/three@0.106.2/examples/js/loaders/GLTFLoader.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/94/three.min.js"></script>
+        
+        <!--Config program-->
+        <script type="text/javascript" src="data_crime/admfiles.js"></script>
+        <script type="text/javascript" src="data_crime/maps.js"></script>
+        <script type="text/javascript">
+  
+            loadBasicMap();
+            loadDefaultElementsOnMap();
+
+            setEventsToSpatialUnitOptions();
+            setEventsToSpaceUnitLimitsOptions();
+            setEventsToSpaceUnitNamesOptions();
+
+            menuChoroplethMaps('upz-choro-options')
+            .then(content => menuChoroplethMaps('localities-choro-options'))
+            .then(content => menuChoroplethMaps('catastral-choro-options'));
+
+            menuHeatMaps('heatmap-options');
+            
+        </script>       
+        
+        <script type="text/javascript" src="data_crime/interactive.js"></script>
+        <!--Bootstrap resources-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+
+</html>
