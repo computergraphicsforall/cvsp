@@ -30,6 +30,7 @@ const UPZ_UNIT_NAMES_PATH = '../cvsp/data_crime/upz_names.geojson';
 const ZC_UNIT_NAMES_PATH = '../cvsp/data_crime/zc_names.geojson';
 const HEATMAP_NUSE_PATH = '../cvsp/data_crime/heatmap/heatmap_nuse.geojson';
 const HEATMAP_PTS_NUSE_PATH = '../cvsp/data_crime/heatmap/pts_nuse.geojson';
+const CHORO_EX_PREDICT_PATH = '../cvsp/data_crime/choropleth/lcl/choropleth_predictability_localidades.geojson';
 
 // global variables
 var map, chpColorsMapUPZ;
@@ -58,6 +59,10 @@ const ID_CAT_ZONE_SOURCE = 'cat_zone';
 const ID_NAMES_LCL_SOURCE = 'lcl-name';
 const ID_NAMES_UPZ_SOURCE = 'upz-name';
 const ID_NAMES_ZC_SOURCE = 'zc-name';
+
+const ID_EX_CHOPLETH_PRED = 'choro-predic-layer';
+const ID_EX_CHOPLETH_SOURCE = 'choro-predic';
+
 
 const ID_HEATMAP_NUSE_SOURCE = 'hp-nuse';
 const ID_HEATMAP_PTS_NUSE_SOURCE = 'pts-nuse';

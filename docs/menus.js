@@ -641,6 +641,36 @@ function menuHeatMaps(id) {
     });
 
 }
+
+function menuStaticChoropleth(id) {
+
+
+    let menu = _(id);
+
+    Array.from(menu.children).forEach(function(item, index){
+
+        if (index == 0) {
+            
+            item.addEventListener(CLICK_EVENT, function(e){
+
+                if (item.innerText.toString().startsWith('Show') && getLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility') == 'none' && getLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility') == 'none') {
+
+                    setLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility', 'visible');
+                    item.innerText = item.innerText.toString().replace('Show', 'Hide');
+
+                }
+                else {
+
+                    setLayoutProperty(ID_HEATMAP_NUSE, 'visibility', 'none');
+                    item.innerText = item.innerText.toString().replace('Hide', 'Show');
+                }
+
+            });
+        }
+
+    });
+
+}
 /**
  * Function to load all properties that are numeric as display options in the properties menu for choroplietic map.
  * The name and value of the property by which the data is bound to the space units will not be a menu property
