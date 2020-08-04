@@ -72,8 +72,7 @@ function loadDefaultElementsOnMap (){
            addSourceMap(ID_HEATMAP_NUSE_SOURCE, HEATMAP_NUSE_PATH, 'geojson');
            addSourceMap(ID_HEATMAP_PTS_NUSE_SOURCE, HEATMAP_PTS_NUSE_PATH, 'geojson');
 
-           // Ana choropleth map
-           //addLayerChoroplethMap (ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, 'none', DATA_ANA, 'constancy', 'COD_LCL')
+        
            heatMapNuse();
             
         } catch (error) {

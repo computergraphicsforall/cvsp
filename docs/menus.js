@@ -654,10 +654,12 @@ function menuStaticChoropleth(id) {
             
             item.addEventListener(CLICK_EVENT, function(e){
 
-                if (item.innerText.toString().startsWith('Show') && getLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility') == 'none' && getLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility') == 'none') {
+                if (item.innerText.toString().startsWith('Show')) {
 
-                    addInfoChoropleticVisualization ('features'); 
+                    addInfoChoropleticVisualization ('features');
+
                     addInteractiveInfoVisualization (ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, 'COD_LCL', 'constancy', DATA_ANA);
+                    addLayerChoroplethMap (ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, 'none', DATA_ANA, 'constancy', 'COD_LCL');
                     setLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility', 'visible');
                     item.innerText = item.innerText.toString().replace('Show', 'Hide');
 
