@@ -112,7 +112,7 @@ function addChoropleticLegend (dataQuantiles, colorScale) {
 
             if (layer.toString().split('.')[0].length > 10) {
 
-                layer = (layer).toExponential(4);
+                layer = (layer).toExponential(2);
             } else {
 
                 if (layer == 0) {
@@ -120,7 +120,7 @@ function addChoropleticLegend (dataQuantiles, colorScale) {
 
                 } else if(layer < 0.1) {
 
-                    layer = layer.toExponential(4);
+                    layer = layer.toExponential(2);
 
                 } else {
 
@@ -380,19 +380,19 @@ function addInteractiveInfoVisualization (idLayer, idSource, idMatch, property, 
             if (idSource == ID_LOCALITIES_SOURCE) {
                 infoContainer.innerHTML = '<h3><strong> Location code: </strong>' + spatialUnit[0]['properties'][idMatch] + '</h3>' +
                                       '<p><h8><strong>' + spatialUnit[0].properties.NOM_LCL + '</strong></h8></p>' + 
-                                      '<p><strong><em>' + property + ': </strong>' + valueProperty +'</em></p>';
+                                      '<p><strong><em>' + property + ': </strong>' + valueProperty.toFixed(4) +'</em></p>';
 
             } else if (idSource == ID_UPZ_SOURCE) {
 
                 infoContainer.innerHTML = '<h3><strong> UPZ code: </strong>' + spatialUnit[0]['properties'][idMatch] + '</h3>' +
                                       '<p><h8><strong>' + spatialUnit[0].properties.UPlNombre + '</strong></h8></p>' + 
-                                      '<p><strong><em>' + property + ': </strong>' + valueProperty +'</em></p>';
+                                      '<p><strong><em>' + property + ': </strong>' + valueProperty.toFixed(4)  +'</em></p>';
 
             } else if (idSource == ID_CAT_ZONE_SOURCE) {
 
                 infoContainer.innerHTML = '<h3><strong> C. Zone code: </strong>' + spatialUnit[0]['properties'][idMatch] + '</h3>' +
                                       '<p><h8><strong>' + spatialUnit[0].properties.ZC_NOM + '</strong></h8></p>' + 
-                                      '<p><strong><em>' + property + ': </strong>' + valueProperty +'</em></p>';
+                                      '<p><strong><em>' + property + ': </strong>' + valueProperty.toFixed(4) +'</em></p>';
 
                 
             }
