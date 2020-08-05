@@ -12,6 +12,7 @@
         <!--Local threebox resources-->
         <!--script src="../grafica/threebox-master/dist/threebox.js" type="text/javascript"></script-->
         <script type="text/javascript" src="data_crime/choropleth/lcl/choropleth_predictability_localidades.js"></script>
+        <script type="text/javascript" src="data_crime/choropleth/upz/choropleth_data.js"></script>
         <script type="text/javascript" src="data_crime/global_vars.js"></script>
         <script type="text/javascript" src="menus.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
@@ -90,7 +91,7 @@
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item dropdown-toggle" href="#">UPZ</a>
                                 <ul class="dropdown-menu" id="upz-choro-options" name="upz-choro-options">
-                                  <!--<a class="dropdown-item" href="#">Show: Datos nuse</a>-->
+                                  <a class="dropdown-item" href="#">Show: Datos nuse</a>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
@@ -200,7 +201,8 @@
 
 
             menuHeatMaps('heatmap-options');
-            menuStaticChoropleth('localities-choro-options');
+            menuStaticChoropleth('localities-choro-options', ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, ID_MATCH_LOCALITIES, DATA_ANA, 'constancy');
+            menuStaticChoropleth('upz-choro-options', ID_EX_NUSE, ID_NAMES_UPZ_SOURCE, ID_MATCH_UPZ, DATA_NUSE, 'NUM');
             
         </script>       
         

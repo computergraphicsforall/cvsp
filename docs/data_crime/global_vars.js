@@ -62,6 +62,7 @@ const ID_NAMES_ZC_SOURCE = 'zc-name';
 
 const ID_EX_CHOPLETH_PRED = 'choro-predic-layer';
 const ID_EX_CHOPLETH_SOURCE = 'choro-predic';
+const ID_EX_NUSE = 'choro-nuse-layer';
 
 
 const ID_HEATMAP_NUSE_SOURCE = 'hp-nuse';

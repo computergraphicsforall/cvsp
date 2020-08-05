@@ -643,10 +643,10 @@ function menuHeatMaps(id) {
 
 }
 
-function menuStaticChoropleth(id) {
+function menuStaticChoropleth(idMenu, idLayer, idSource, idMatch, data, defaultProperty) {
 
 
-    let menu = _(id);
+    let menu = _(idMenu);
 
     Array.from(menu.children).forEach(function(item, index){
 
@@ -657,20 +657,20 @@ function menuStaticChoropleth(id) {
                 if (item.innerText.toString().startsWith('Show')) {
 
                     addInfoChoropleticVisualization ('features');
-                    addInteractiveInfoVisualization (ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, 'COD_LCL', 'constancy', DATA_ANA);
+                    addInteractiveInfoVisualization (idLayer, idSource, idMatch, defaultProperty, data);
                     
                     item.innerText = item.innerText.toString().replace('Show', 'Hide');
 
-                    let dataProperties = getPropertiesByData (DATA_ANA, 'COD_LCL');
+                    let dataProperties = getPropertiesByData (data, idMatch);
                     if (Object.keys(dataProperties).length > 1) {
 
-                        addChoropleticProperties(dataProperties, ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, DATA_ANA, 'COD_LCL', CLICK_EVENT);     
+                        addChoropleticProperties(dataProperties, idLayer, idSource, data, idMatch, CLICK_EVENT);     
                     }
-                    addLayerChoroplethMap (ID_EX_CHOPLETH_PRED, ID_LOCALITIES_SOURCE, 'none', DATA_ANA, 'constancy', 'COD_LCL');
-                    setLayoutProperty(ID_EX_CHOPLETH_PRED, 'visibility', 'visible');
+                    addLayerChoroplethMap (idLayer, idSource, 'none', data, defaultProperty, idMatch);
+                    setLayoutProperty(idLayer, 'visibility', 'visible');
                 }
                 else {
-                    removeLayer(ID_EX_CHOPLETH_PRED);
+                    removeLayer(idLayer);
                     delElementVisualization ('features');
                     item.innerText = item.innerText.toString().replace('Hide', 'Show');
                 }
